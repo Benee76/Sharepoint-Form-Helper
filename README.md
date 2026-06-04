@@ -4,6 +4,8 @@
 
 SharePoint Formatter is a specialized configuration tool designed to streamline the generation of JSON payloads for SharePoint Online custom formatting. It provides a visual interface for constructing complex Header, Body, and Footer layouts, as well as command bar overrides and conditional field visibility formulas.
 
+[Website](sharepoint.andreas-benee.dk "GitHub Pages with the tool running for free use")
+
 ## Features
 
 * **Header Customization:** Generate flexible top-level banners with support for custom text, icons, styling, and conditional visibility expressions.
