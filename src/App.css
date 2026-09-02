@@ -1,31 +1,70 @@
-.App {
-  text-align: center;
+/* Refined Modern Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
 }
 
-.heart {
-  color: #ff0000;
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(71, 85, 105, 0.5);
 }
 
-.small {
-  font-size: 0.75rem;
+.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.8);
 }
+
+/* SharePoint Standard Font Sizes */
+.ms-font-s {
+  font-size: 12px;
+}
+
+.ms-font-m {
+  font-size: 14px;
+}
+
+.ms-font-l {
+  font-size: 18px;
+}
+
+.ms-font-xl {
+  font-size: 21px;
+}
+
+.ms-font-su {
+  font-size: 32px;
+}
+
+input, select, textarea {
+  outline: none;
+}
+
+/* Glass & Card Glow Effects */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark .glass-panel {
+  background: rgba(15, 23, 42, 0.85);
+}
+
+/* Subtle transitions on interactive elements */
+button, input, select, textarea {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+

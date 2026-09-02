@@ -1,6 +1,7 @@
 {
-  "name": "codespaces-react",
-  "version": "0.1.0",
+  "name": "sharepoint-form-helper",
+  "version": "1.0.0",
+  "homepage": "https://sharepoint.andreas-benee.dk",
   "private": true,
   "type": "module",
   "dependencies": {
@@ -17,7 +18,7 @@
     "@adobe/css-tools": "^4.3.1"
   },
   "scripts": {
-    "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
+    "start": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
